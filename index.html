@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy</title>
+
+  <style>
+    :root {
+      --primary: #ff6b35;
+      --text-dark: #222;
+      --text-light: #555;
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+      color: var(--primary);
+    }
+
+    .effective-date {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      border-left: 4px solid var(--primary);
+      padding-left: 12px;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    p {
+      margin: 8px 0 12px;
+      color: var(--text-light);
+    }
+
+    ul {
+      margin: 8px 0 16px 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+      color: var(--text-light);
+    }
+
+    .highlight {
+      background: #fff7f3;
+      border-left: 4px solid var(--primary);
+      padding: 12px 16px;
+      margin: 16px 0;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+
+    .contact {
+      background: #f3f4f6;
+      padding: 16px;
+      border-radius: 8px;
+      margin-top: 16px;
+      font-size: 0.95rem;
+    }
+
+    .contact strong {
+      display: inline-block;
+      min-width: 90px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin-top: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Privacy Policy</h1>
+      <div class="effective-date">
+        Effective Date: <strong>[DD/MM/YYYY]</strong>
+      </div>
+
+      <p>
+        This Privacy Policy describes how <strong>[Your App Name]</strong>
+        (“we”, “our”, or “us”) collects, uses, and protects your information
+        when you use our mobile application.
+      </p>
+
+      <p>
+        By using the app, you agree to the collection and use of information
+        in accordance with this policy.
+      </p>
+
+      <h2>1. Information We Collect</h2>
+
+      <h3>a. Personal Information</h3>
+      <p>When you create an account or place an order, we may collect:</p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Phone number</li>
+        <li>Delivery address</li>
+      </ul>
+      <p>
+        Passwords are securely hashed and are never stored in plain text.
+      </p>
+      <p>
+        You may also sign in using Google Login. In this case, we receive
+        basic profile information (such as name and email) as permitted by Google.
+      </p>
+
+      <h3>b. Location Information</h3>
+      <p>We collect location data (with your permission) to:</p>
+      <ul>
+        <li>Determine nearby restaurants</li>
+        <li>Calculate distance (in kilometers) between you and restaurants</li>
+      </ul>
+      <p>
+        Location data is used only while the app is in use and is not tracked
+        in the background.
+      </p>
+
+      <h3>c. Order Information</h3>
+      <p>We collect order-related data such as:</p>
+      <ul>
+        <li>Ordered food items</li>
+        <li>Restaurant details</li>
+        <li>Order history</li>
+      </ul>
+      <p>This information is used to:</p>
+      <ul>
+        <li>Process orders</li>
+        <li>Track order status</li>
+        <li>Send order updates via email and notifications</li>
+      </ul>
+
+      <h3>d. Payment Information</h3>
+      <p>
+        Payments are processed using PayPal and Stripe through their official
+        payment pages opened in WebView.
+      </p>
+
+      <div class="highlight">
+        ⚠️ <strong>We do not store or process any payment card or bank details.</strong><br />
+        All payment data is handled directly by PayPal or Stripe according to
+        their own privacy policies.
+      </div>
+
+      <h3>e. Push Notifications</h3>
+      <p>We use Expo Notifications to send:</p>
+      <ul>
+        <li>Order status updates</li>
+        <li>Important service-related notifications</li>
+      </ul>
+      <p>For this purpose, we may collect a device notification token provided by Expo.</p>
+      <ul>
+        <li>Used only for app functionality</li>
+        <li>Not shared for advertising</li>
+        <li>Not used for cross-app tracking</li>
+      </ul>
+      <p>You can disable notifications anytime from your device settings.</p>
+
+      <h2>2. How We Use Your Information</h2>
+      <ul>
+        <li>Create and manage user accounts</li>
+        <li>Process food orders</li>
+        <li>Send order confirmations and updates</li>
+        <li>Send push notifications</li>
+        <li>Show nearby restaurants</li>
+        <li>Improve app functionality</li>
+        <li>Ensure security and prevent fraud</li>
+      </ul>
+
+      <h2>3. Data Sharing</h2>
+      <p>We do not sell or rent your personal data.</p>
+      <p>We may share data only with:</p>
+      <ul>
+        <li>PayPal and Stripe (payment processing)</li>
+        <li>Google services (Google Sign-In)</li>
+        <li>Expo (push notifications)</li>
+        <li>Legal authorities, if required by law</li>
+      </ul>
+
+      <h2>4. Data Security</h2>
+      <ul>
+        <li>Passwords are hashed</li>
+        <li>Secure HTTPS connections</li>
+        <li>Limited access to stored user data</li>
+      </ul>
+      <p>
+        However, no method of transmission over the internet is 100% secure.
+      </p>
+
+      <h2>5. Data Retention</h2>
+      <p>
+        We retain your personal data only as long as your account is active
+        or as required to fulfill legal or business obligations.
+      </p>
+
+      <h2>6. Account & Data Deletion</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access your personal data</li>
+        <li>Request correction of incorrect data</li>
+        <li>Delete your account and associated data</li>
+      </ul>
+      <p>You can delete your account by:</p>
+      <ul>
+        <li>Using the <strong>Delete Account</strong> option inside the app</li>
+        <li>Contacting us via email</li>
+      </ul>
+
+      <h2>7. Children’s Privacy</h2>
+      <p>
+        Our app is not intended for children under the age of 13.
+        We do not knowingly collect personal data from children.
+      </p>
+
+      <h2>8. Third-Party Services</h2>
+      <ul>
+        <li>Google Sign-In</li>
+        <li>PayPal</li>
+        <li>Stripe</li>
+        <li>Expo Notifications</li>
+      </ul>
+      <p>
+        Please review their privacy policies for more information.
+      </p>
+
+      <h2>9. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time.
+        Any changes will be posted within the app or on our website.
+      </p>
+
+      <h2>10. Contact Us</h2>
+      <div class="contact">
+        <p><strong>Email:</strong> [your-support-email@example.com]</p>
+        <p><strong>Developer:</strong> [Your Company / Developer Name]</p>
+      </div>
+    </div>
+
+    <footer>
+      © [Year] [Your App Name]. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
